@@ -1,0 +1,8 @@
+name: cell-home-page
+root: /home/git/cell/cell-home-web
+
+windows:
+  - cell_home_page: >
+      clear ;
+      sleep 0.2 ;
+      cd docker
