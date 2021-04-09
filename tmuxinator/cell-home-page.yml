@@ -5,4 +5,10 @@ windows:
   - cell_home_page: >
       clear ;
       sleep 0.2 ;
+      firefox-dev ;
       cd docker
+
+  - firefox-dev: >
+      clear ;
+      sleep 0.2 ;
+      firefox-dev &

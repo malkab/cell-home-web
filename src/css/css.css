@@ -1,0 +1,49 @@
+* {
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.title {
+  font-family: 'Noto Serif', serif;
+  font-size: 80px;
+  font-style: italic;
+}
+
+.subtitle {
+  font-family: 'Noto Serif', serif;
+  font-size: 50px;
+}
+
+/**
+
+  Sections.
+
+*/
+div#intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+div#intro-text {
+  padding-top: 165px;
+}
+
+/**
+
+  helpers.
+
+*/
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
