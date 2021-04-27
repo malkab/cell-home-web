@@ -1,0 +1,83 @@
+* {
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-family: 'Noto Serif', serif;
+  font-size: 80px;
+  font-style: italic;
+}
+
+.subtitle {
+  font-family: 'Noto Serif', serif;
+  font-size: 50px;
+}
+
+.intro-text {
+  font-size: 25px;
+}
+
+/**
+
+  Sections.
+
+*/
+div#intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+div#intro-text {
+  padding-top: 55px;
+}
+
+/**
+
+  helpers.
+
+*/
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+/**
+
+  Text.
+
+*/
+h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 27px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+ul {
+  margin-left: 45px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li.last {
+  margin-bottom: 0px;
+}

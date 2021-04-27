@@ -1,1 +1,159 @@
-<p>index</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8" />
+	<title>cell - Rejillas multiescalares asimétricas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="src/css/foldy960.css" type="text/css" />
+  <link rel="stylesheet" href="src/css/css.css" type="text/css" />
+
+  <!-- Fuentes Google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<!-- javascripts -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+
+  <section id="content">
+    <div class="container">
+      <section id="title">
+        <div id="intro">
+          <div class="grid-2 title">
+            <p class="title">cell.</p>
+            <p class="subtitle">Rejillas multiescalares asimétricas.</p>
+          </div>
+
+          <div class="grid-1"></div>
+
+          <div id="intro-text" class="grid-3">
+            <p class="intro-text"><i>cell</i> es un prototipo de plataforma para la gestión de rejillas de datos geográficos multiescalares y asimétricas. Es el resultado de mi Tesis Doctoral en Geografía, realizada en el Universidad de Sevilla entre los años 2016-2021, financiada por una beca de investigación del Ministerio de Ciencia e Innovación del Gobierno de España BES-2015-072172 en el proyecto CSO2014-51994-P.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid-5">
+
+          <p>Esta página es un compendio de los recursos generados durante los trabajos para la realización de la Tesis Doctoral, que esperemos se vayan ampliando con el tiempo para poner a disposición de los desarrolladores TIG todos los recursos necesarios para utilizar la plataforma por sus propios medios.</p>
+
+          <p>Básicamente, esta página recoge los enlaces a tres tipos de recursos:</p>
+
+          <ul>
+            <li><b>visores:</b> visores desarrollados como muestra de la plataforma;</li>
+            <li><b>repositorios de datos:</b> repositorio de tratamiento de datos utilizados para ejemplificar las posibilidades de la plataforma;
+            <li class="last"><b>repositorios de código:</b> repositorios de código fuente de los distintos componentes de la plataforma.</li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="grid-5">
+
+          <p>Esta página es un compendio de los recursos generados durante los trabajos para la realización de la Tesis Doctoral, que esperemos se vayan ampliando con el tiempo para poner a disposición de los desarrolladores TIG todos los recursos necesarios para utilizar la plataforma por sus propios medios.</p>
+
+          <p>Básicamente, esta página recoge los enlaces a tres tipos de recursos:</p>
+
+          <ul>
+            <li><b>visores:</b> visores desarrollados como muestra de la plataforma;</li>
+
+            <li><b>repositorios de datos:</b> repositorio de tratamiento de datos utilizados para ejemplificar las posibilidades de la plataforma;</li>
+
+            <li class="last"><b>repositorios de código:</b> repositorios de código fuente de los distintos componentes de la plataforma.</li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="grid-5">
+
+          <h1>Visores</h1>
+
+          <p>A continuación se detallan los visores creados para demostrar las capacidades de la plataforma:</p>
+
+          <ul>
+            <li><b>visor Cell con recreación en tiempo real de las teselas:</b> este es un visor creado ex-profeso para la plataforma que aprovecha la capacidad de la misma de generar las teselas a partir de los datos en bruto. Contiene datos sobre los Hábitats de Interés Comunitario y población (<a href="http://cell003.37north.io/" target="_blank">enlace</a>);</li>
+
+            <li><b>visor con widgets de población:</b> realizado con la plataforma <a href="https://carto.com/" target="_blank">CARTO</a>, este visor permite la exploración de la información de rejilla mediante histogramas (<a href="https://universidad-sevilla.carto.com/u/univ-sevilla-admin/builder/4d480f94-75c9-44ea-b9fb-003c63cbcdd1/embed" target="_blank">enlace</a>);</li>
+
+            <li><b>visor con widgets de resultados de <i>Machine Learning</i>:</b> realizado también CARTO, este visor permite explorar los resultados de los tests hechos con los procedimientos de <i>K-Means</i> y <i>Random Forest</i> sobre los datos de población (<a href="https://universidad-sevilla.carto.com/u/univ-sevilla-admin/builder/3305ddb1-3c17-40f0-8b5c-9d317e4d6ad9/embed" target="_blank">enlace</a>);</li>
+
+            <li><b>visor con widgets de resultados de <i>Machine Learning</i>, versión con ortofoto:</b> versión con ortofoto de fondo del anterior visor, dado que la tipología urbana clasificada por el <i>Random Forest</i> se aprecia mejor con dicha base cartográfica. Por lo demás, idéntico al anterior (<a href="https://universidad-sevilla.carto.com/u/univ-sevilla-admin/builder/96a84768-db22-4f6b-92ea-b2ec88089b8a/embed" target="_blank">enlace</a>).</li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section id="gallery" class="cf">
+
+        <div class="gallery cf">
+          <a href="http://cell003.37north.io/" target="_blank"><img src="src/images/cell_00.png" class="grid-unit"></a>
+          <a href="https://universidad-sevilla.carto.com/u/univ-sevilla-admin/builder/4d480f94-75c9-44ea-b9fb-003c63cbcdd1/embed" target="_blank"><img src="src/images/cell_carto_00.png" class="grid-unit"></a>
+          <a href="https://universidad-sevilla.carto.com/u/univ-sevilla-admin/builder/96a84768-db22-4f6b-92ea-b2ec88089b8a/embed" target="_blank"><img src="src/images/cell_carto_01.png" class="grid-unit"></a>
+        </div>
+
+      </section>
+
+      <section>
+        <div class="grid-5">
+
+          <h1>Repositorios de datos</h1>
+
+          <p>Estos repositorios de datos contienen el código de manipulación <i>ETL</i> de los datos incorporados en la plataforma a modo de prueba. Todos ellos se pueden encontrar en el siguiente <a href="https://gitlab.com/malkab-phd-data" target="_blank">enlace</a>:</p>
+
+          <ul>
+            <li><b>malkab-phd-data-cell_raw_data:</b> constructor principal de la base de datos de datos originales, donde se realiza todo el proceso <i>ETL</i> y de lectura y proceso de datos de teselación;</li>
+
+            <li><b>malkab-phd-data-proyecto_nacional_data:</b> proceso de datos de catastro;</li>
+
+            <li><b>malkab-phd-data-context_data:</b> proceso de datos de contexto (provincias, municipios, etc.);</li>
+
+            <li><b>malkab-phd-data-hic:</b> proceso de datos de Hábitats de Interés Comunitario;</li>
+
+            <li><b>malkab-phd-data-población:</b> proceso de datos de población.</li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="grid-5">
+
+          <h1>Repositorios de código</h1>
+
+          <p>Todos estos repositorios contienen el código de las distintas librerías y componentes de la plataforma:</p>
+
+          <ul>
+            <li><b>cell:</b> repositorio principal de la plataforma, con todos los componentes de microservicios (<a href="https://gitlab.com/malkab-phd/cell" target="_blank">enlace</a>);</li>
+
+            <li><b>angular-mapbox:</b> componente <i>Angular</i> para visores <i>Mapbox</i> (<a href="https://gitlab.com/malkab-angular-libraries/angular-mapbox" target="_blank">enlace</a>);</li>
+
+            <li><b>appian:</b> <i>framework</i> sobre <i>Express</i> para construir API de servicios web con más comodidad y estandarización (<a href="https://gitlab.com/malkab-libraries-node/appian" target="_blank">enlace</a>);</li>
+
+            <li><b>rewhitt:</b> <i>framework</i> sobre <i>Docker</i>, <i>PostgreSQL</i>, <i>Redis</i> y <i>TypeScript</i> para controlar procesos distribuidos (<a href="https://gitlab.com/malkab-libraries-node/rewhitt" target="_blank">enlace</a>);</li>
+
+            <li><b>rxpg:</b> librería cliente <i>PostgreSQL</i> para TypeScript basado en RxJs (<a href="https://gitlab.com/malkab-libraries-node/rxpg" target="_blank">enlace</a>);</li>
+
+            <li><b>rxredis:</b> librería cliente <i>Redis</i> para TypeScript basado en RxJs (<a href="https://gitlab.com/malkab-libraries-node/rxredis" target="_blank">enlace</a>);</li>
+
+            <li><b>node-logger:</b> librería de <i>logging</i> para <i>TypeScript</i> (<a href="https://gitlab.com/malkab-libraries-node/node-logger" target="_blank">enlace</a>);</li>
+
+            <li><b>node-utils:</b> conjunto de utilidades de carácter general para la plataforma Node (<a href="https://gitlab.com/malkab-libraries-node/node-utils" target="_blank">enlace</a>);</li>
+
+            <li><b>ts-utils:</b> conjunto de utilidades de carácter general para el lenguaje TypeScript (<a href="https://gitlab.com/malkab-libraries-ts/ts-utils" target="_blank">enlace</a>).</li>
+          </ul>
+
+        </div>
+      </section>
+
+    </div>
+  </section>
+</body>
+</html>

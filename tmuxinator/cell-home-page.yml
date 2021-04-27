@@ -6,3 +6,8 @@ windows:
       clear ;
       sleep 0.2 ;
       cd docker
+
+  - firefox-dev: >
+      clear ;
+      sleep 0.2 ;
+      firefox-dev &
