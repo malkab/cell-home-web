@@ -34,6 +34,11 @@ div#intro-text {
   padding-top: 55px;
 }
 
+/* Last div of content adds a final whitespace */
+div.last {
+  padding-bottom: 300px;
+}
+
 /**
 
   helpers.
