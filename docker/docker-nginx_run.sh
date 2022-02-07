@@ -118,6 +118,10 @@ WWW_PORT_F=8080
 
 if [ ! -z "${WWW_PORT}" ]; then WWW_PORT_F=$WWW_PORT ; fi
 
+echo
+echo Serving web on port $WWW_PORT_F
+echo
+
 # Site folder
 SITE_FOLDER_F=$(pwd)
 

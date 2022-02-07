@@ -71,7 +71,8 @@
           <p>A continuación se detallan los visores creados para demostrar las capacidades de la plataforma:</p>
 
           <ul>
-            <li><b>visor Cell con recreación en tiempo real de las teselas:</b> este es un visor creado ex-profeso para la plataforma que aprovecha la capacidad de la misma de generar las teselas a partir de los datos en bruto. Contiene datos sobre los Hábitats de Interés Comunitario y población (<a href="http://cell003.37north.io/" target="_blank">enlace</a>);</li>
+            <!-- ESTO NO ESTÁ DISPONIBLE, ES LO QUE ESTABA EN AMAZON LIGHTSAIL -->
+            <!-- <li><b>visor Cell con recreación en tiempo real de las teselas:</b> este es un visor creado ex-profeso para la plataforma que aprovecha la capacidad de la misma de generar las teselas a partir de los datos en bruto. Contiene datos sobre los Hábitats de Interés Comunitario y población (<a href="http://cell003.37north.io/" target="_blank">enlace</a>);</li> -->
 
             <li><b>visor con widgets de población:</b> realizado con la plataforma <a href="https://carto.com/" target="_blank">CARTO</a>, este visor permite la exploración de la información de rejilla mediante histogramas (<a href="https://universidad-sevilla.carto.com/u/univ-sevilla-admin/builder/4d480f94-75c9-44ea-b9fb-003c63cbcdd1/embed" target="_blank">enlace</a>);</li>
 
@@ -98,18 +99,18 @@
 
           <h1>Repositorios de datos</h1>
 
-          <p>Estos repositorios de datos contienen el código de manipulación <i>ETL</i> de los datos incorporados en la plataforma a modo de prueba. Todos ellos se pueden encontrar en el siguiente <a href="https://gitlab.com/malkab-phd-data" target="_blank">enlace</a>:</p>
+          <p>Estos repositorios de datos contienen el código de manipulación <i>ETL</i> de los datos incorporados en la plataforma a modo de prueba. Todos ellos se pueden encontrar en los siguientes enlaces:</p>
 
           <ul>
-            <li><b>malkab-phd-data-cell_raw_data:</b> constructor principal de la base de datos de datos originales, donde se realiza todo el proceso <i>ETL</i> y de lectura y proceso de datos de teselación;</li>
+            <li><b>malkab-phd-data-cell_raw_data:</b> constructor principal de la base de datos de datos originales, donde se realiza todo el proceso <i>ETL</i> y de lectura y proceso de datos de teselación (<a href="https://github.com/malkab/phd_data-cell_raw_data" target="_blank">enlace</a>);</li>
 
-            <li><b>malkab-phd-data-proyecto_nacional_data:</b> proceso de datos de catastro;</li>
+            <li><b>malkab-phd-data-proyecto_nacional_data:</b> proceso de datos de catastro (<a href="https://github.com/malkab/phd_data-proyecto_nacional_data" target="_blank">enlace</a>);</li>
 
-            <li><b>malkab-phd-data-context_data:</b> proceso de datos de contexto (provincias, municipios, etc.);</li>
+            <li><b>malkab-phd-data-context_data:</b> proceso de datos de contexto (provincias, municipios, etc.) (<a href="https://github.com/malkab/phd_data-context_data" target="_blank">enlace</a>);</li>
 
-            <li><b>malkab-phd-data-hic:</b> proceso de datos de Hábitats de Interés Comunitario;</li>
+            <li><b>malkab-phd-data-hic:</b> proceso de datos de Hábitats de Interés Comunitario (<a href="https://github.com/malkab/phd_data-hic" target="_blank">enlace</a>);</li>
 
-            <li><b>malkab-phd-data-población:</b> proceso de datos de población.</li>
+            <li><b>malkab-phd-data-población:</b> proceso de datos de población (<a href="https://github.com/malkab/phd_data-poblacion" target="_blank">enlace</a>).</li>
           </ul>
 
         </div>
@@ -123,23 +124,24 @@
           <p>Todos estos repositorios contienen el código de las distintas librerías y componentes de la plataforma:</p>
 
           <ul>
-            <li><b>cell:</b> repositorio principal de la plataforma, con todos los componentes de microservicios (<a href="https://gitlab.com/malkab-phd/cell" target="_blank">enlace</a>);</li>
+            <li><b>cell:</b> repositorio principal de la plataforma, con todos los componentes de microservicios (<a href="https://github.com/malkab/phd-cell" target="_blank">enlace</a>);</li>
 
-            <li><b>angular-mapbox:</b> componente <i>Angular</i> para visores <i>Mapbox</i> (<a href="https://gitlab.com/malkab-angular-libraries/angular-mapbox" target="_blank">enlace</a>);</li>
+            <!-- ESTO NO ESTÁ DISPONIBLE -->
+            <!--<li><b>angular-mapbox:</b> componente <i>Angular</i> para visores <i>Mapbox</i> (<a href="https://github.com/malkab-angular-libraries/angular-mapbox" target="_blank">enlace</a>);</li>-->
 
-            <li><b>appian:</b> <i>framework</i> sobre <i>Express</i> para construir API de servicios web con más comodidad y estandarización (<a href="https://gitlab.com/malkab-libraries-node/appian" target="_blank">enlace</a>);</li>
+            <li><b>appian:</b> <i>framework</i> sobre <i>Express</i> para construir API de servicios web con más comodidad y estandarización (<a href="https://github.com/malkab/libraries_node-appian" target="_blank">enlace</a>);</li>
 
-            <li><b>rewhitt:</b> <i>framework</i> sobre <i>Docker</i>, <i>PostgreSQL</i>, <i>Redis</i> y <i>TypeScript</i> para controlar procesos distribuidos (<a href="https://gitlab.com/malkab-libraries-node/rewhitt" target="_blank">enlace</a>);</li>
+            <li><b>rewhitt:</b> <i>framework</i> sobre <i>Docker</i>, <i>PostgreSQL</i>, <i>Redis</i> y <i>TypeScript</i> para controlar procesos distribuidos (<a href="https://github.com/malkab/libraries_node-rewhitt" target="_blank">enlace</a>);</li>
 
-            <li><b>rxpg:</b> librería cliente <i>PostgreSQL</i> para TypeScript basado en RxJs (<a href="https://gitlab.com/malkab-libraries-node/rxpg" target="_blank">enlace</a>);</li>
+            <li><b>rxpg:</b> librería cliente <i>PostgreSQL</i> para TypeScript basado en RxJs (<a href="https://github.com/malkab/libraries_node-rxpg" target="_blank">enlace</a>);</li>
 
-            <li><b>rxredis:</b> librería cliente <i>Redis</i> para TypeScript basado en RxJs (<a href="https://gitlab.com/malkab-libraries-node/rxredis" target="_blank">enlace</a>);</li>
+            <li><b>rxredis:</b> librería cliente <i>Redis</i> para TypeScript basado en RxJs (<a href="https://github.com/malkab/libraries_node-rxredis" target="_blank">enlace</a>);</li>
 
-            <li><b>node-logger:</b> librería de <i>logging</i> para <i>TypeScript</i> (<a href="https://gitlab.com/malkab-libraries-node/node-logger" target="_blank">enlace</a>);</li>
+            <li><b>node-logger:</b> librería de <i>logging</i> para <i>TypeScript</i> (<a href="https://github.com/malkab/libraries_node-logger" target="_blank">enlace</a>);</li>
 
-            <li><b>node-utils:</b> conjunto de utilidades de carácter general para la plataforma Node (<a href="https://gitlab.com/malkab-libraries-node/node-utils" target="_blank">enlace</a>);</li>
+            <li><b>node-utils:</b> conjunto de utilidades de carácter general para la plataforma Node (<a href="https://github.com/malkab/libraries_node-node_utils" target="_blank">enlace</a>);</li>
 
-            <li><b>ts-utils:</b> conjunto de utilidades de carácter general para el lenguaje TypeScript (<a href="https://gitlab.com/malkab-libraries-ts/ts-utils" target="_blank">enlace</a>).</li>
+            <li><b>ts-utils:</b> conjunto de utilidades de carácter general para el lenguaje TypeScript (<a href="https://github.com/malkab/libraries_ts-ts_utils" target="_blank">enlace</a>).</li>
           </ul>
 
         </div>
