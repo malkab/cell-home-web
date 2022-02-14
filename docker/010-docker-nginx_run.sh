@@ -31,7 +31,7 @@ UNIQUE=
 # blank, defaults to VOLATILE.
 RUN_MODE=
 # Container external port. Defaults to 8080.
-WWW_PORT=
+WWW_PORT=8085
 # Site to serve. Defaults to $(pwd).
 SITE_FOLDER=$(pwd)/../
 # A set of additional volumes in the form ("source:destination"
